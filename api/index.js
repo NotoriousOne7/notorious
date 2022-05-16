@@ -31,6 +31,6 @@ app.use('/api/checkout', stripeRoute);
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json())
 
-app.listen(process.env.PORT || 5000, () => {
-    console.log('Backend server is running!');
-})
+app.listen(8800, () => {
+    console.log("Backend server is running!");
+  });

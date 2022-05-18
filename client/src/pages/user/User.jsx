@@ -136,14 +136,14 @@ export default function User() {
         <div className="userTitleContainer">
           <h1 className="userTitle">Заказы</h1>
         </div>
-      <DataGrid
+      {/*<DataGrid
         rows={orders}
         disableSelectionOnClick
         columns={columns}
         getRowId={row=>row._id}
         pageSize={15}
         checkboxSelection
-      />
+  />*/}
     </div>
       </div>
     </div>
